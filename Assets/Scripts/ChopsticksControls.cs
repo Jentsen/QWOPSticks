@@ -11,7 +11,7 @@ public class ChopsticksControls : MonoBehaviour
 
     private bool isMovingDown = false;
 
-    void Update()
+    void FixedUpdate()
     {
         // Movement Controls
         // Move chopsticks left or right with left shift and right shift
