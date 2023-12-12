@@ -11,11 +11,6 @@ public class ChopsticksControls : MonoBehaviour
 
     private bool isMovingDown = false;
 
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         // Movement Controls
