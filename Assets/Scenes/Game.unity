@@ -473,7 +473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -351.8, y: 223}
+  m_AnchoredPosition: {x: -174, y: -262}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492934573
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 814147442}
   m_Layer: 0
   m_Name: Chopsticks
-  m_TagString: Untagged
+  m_TagString: Chopsticks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1121,7 +1121,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 388, y: 220.5}
+  m_AnchoredPosition: {x: 192, y: -265}
   m_SizeDelta: {x: 132, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251910685
@@ -1253,7 +1253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55548346c71896d45b10d55f00a70c3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathBorderPrefab: {fileID: 0}
 --- !u!65 &1385615198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1334,7 +1333,7 @@ Transform:
   m_GameObject: {fileID: 1385615196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.25, z: 0}
+  m_LocalPosition: {x: 0, y: -5.3, z: 0}
   m_LocalScale: {x: 50, y: 1, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1756,9 +1755,10 @@ GameObject:
   - component: {fileID: 4219671829494359055}
   - component: {fileID: 7616642807556479223}
   - component: {fileID: 7616642807556479224}
+  - component: {fileID: 7616642807556479225}
   m_Layer: 0
   m_Name: Chopstick2
-  m_TagString: Untagged
+  m_TagString: Chopsticks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1776,9 +1776,10 @@ GameObject:
   - component: {fileID: 4219671830452582089}
   - component: {fileID: 7616642806090746417}
   - component: {fileID: 7616642806090746418}
+  - component: {fileID: 7616642806090746419}
   m_Layer: 0
   m_Name: Chopstick1
-  m_TagString: Untagged
+  m_TagString: Chopsticks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,6 +1975,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07299765, y: 2, z: 1.8319291}
   m_Center: {x: -0.00000048428774, y: 0.000000147149, z: 0.00000023841858}
+--- !u!54 &7616642806090746419
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500517182191632917}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!33 &7616642807556479222
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2024,6 +2052,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.072997704, y: 2, z: 1.8319288}
   m_Center: {x: -0.000000007450581, y: 0.00000012665987, z: 0.00000047683716}
+--- !u!54 &7616642807556479225
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500517180662730963}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class DeathBorder : MonoBehaviour
 {
-    public GameObject deathBorderPrefab;
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        if(other.gameObject.tag != "Chopsticks")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
